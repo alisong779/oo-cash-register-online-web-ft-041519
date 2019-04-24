@@ -24,3 +24,4 @@ class CashRegister
       disc_total = (discount * price)/100
   end 
 end 
+end 
