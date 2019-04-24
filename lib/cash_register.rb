@@ -13,6 +13,6 @@ class CashRegister
     while counter < qty 
       counter += 1 
       @items << item 
-    @items << item 
+ end 
     @total = @items * price
   end 
