@@ -23,8 +23,8 @@ class CashRegister
 
   def apply_discount
     if discount > 0 
-      disc_total = (price * discount)/100       #converts to decimal
-      @total -= disc_total                      #reduces total by decimal
+      disc_total = (price * discount)/100       #converts to decimal/dollar value
+      @total -= disc_total                      
          "After the discount, the total comes to $#{@total}."
     else 
         "There is no discount to apply."
