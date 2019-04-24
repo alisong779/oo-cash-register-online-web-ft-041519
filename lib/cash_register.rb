@@ -23,7 +23,7 @@ class CashRegister
     if discount > 0 
       disc_total = (discount * price)/100
       @total -= disc_total
-      
+        puts "After the discount, the total comes to #{@total}."
   end 
 end 
 end 
