@@ -5,3 +5,6 @@ class CashRegister
     @item = item
     @price = price
   end 
+  
+  
+end 
