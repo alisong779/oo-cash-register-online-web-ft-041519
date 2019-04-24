@@ -17,3 +17,4 @@ class CashRegister
     @total = @items * price
   end 
 end 
+end 
