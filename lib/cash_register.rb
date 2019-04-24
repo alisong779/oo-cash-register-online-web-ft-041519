@@ -3,8 +3,7 @@ class CashRegister
   
   def initialize(discount = 0)
     @total = 0 
-    @item = item
-    @price = price
+    @item
     discount_items = []
   end 
   
