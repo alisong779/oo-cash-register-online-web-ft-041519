@@ -17,4 +17,3 @@ class CashRegister
     @items << item 
     @total = @items * price
   end 
-end 
