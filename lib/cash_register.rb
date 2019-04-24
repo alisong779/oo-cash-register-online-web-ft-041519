@@ -20,6 +20,7 @@ class CashRegister
   end 
 
   def apply_discount
-    
+    if discount > 0 
+      disc_total = (discount * )
   end 
 end 
